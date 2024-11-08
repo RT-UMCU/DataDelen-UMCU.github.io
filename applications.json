@@ -5,10 +5,9 @@
         "allowedOptions": [
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
-            "q2_No",
-            "q3_Copy",
-            "q4_Public",
-            "q5_<25MB"
+            "q2_Copy",
+            "q3_Public",
+            "q4_<25MB"
         ],
         "description": "Email is one of our most important communication tools. Through the email system of UMC Utrecht, you can send files up to 5 MB to external recipients, while internally you can send files up to 10 MB. Outlook is the program we use to send and receive emails.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -21,12 +20,11 @@
         "allowedOptions": [
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
-            "q2_No",
-            "q3_One source",
-            "q4_Public",
-            "q5_Up to 1 TB",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q3_Public",
+            "q4_Up to 1 TB",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
         "description": "SURFfilesender is a web application that allows you to securely send large files. You can send the files encrypted and there is also the option to send a link to someone who wants to share files with you in a secure manner, but who does not have access to SURFfilesender. It is therefore a safe alternative for tools such as WeTransfer, which should not be used for research data.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -35,20 +33,19 @@
     },
     {
         "application": "Research Folder Structure (RFS)",
-        "image": "https://iili.io/JNMYW7e.png",
+        "image": "https://iili.io/2zQD2rQ.png",
         "allowedOptions": [
             "q1_With UMCU colleague(s)",
-            "q1_For personal use",
-            "q2_No",
-			"q2_Yes",
-            "q3_One source",
-            "q4_Public",
-            "q4_Confidential and unpseudononimized",
-	        "q4_Confidential and pseudonimized",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q2_One source",
+            "q3_Public",
+            "q3_Confidential and unpseudonymized",
+	        "q3_Confidential and pseudonymized",
+            "q4_<25MB",
+			"q4_Up to 1 TB",
+            "q4_Up to 25 GB"
         ],
-        "description": "The Research Folder Structure (RFS) is a folder on the UMC Utrecht network drive with a fixed structure. The RFS provides transparency on what has been done in the different stages of a particular study and where data and documents are stored. It enables you to comply with the UMCU research data management policy, GCP and GDPR (AVG), because of the differentiated access to the different folders.",
+        "description": "The Research Folder Structure (RFS) is a folder on the UMC Utrecht network drive with a fixed structure and is the preffered tool for data sharing within the UMCU. The RFS provides transparency on what has been done in the different stages of a particular study and where data and documents are stored. It enables you to comply with the UMCU research data management policy, GCP and GDPR (AVG), because of the differentiated access to the different folders.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
         "costs": "Cost covered by division, could be passed on to researchers",
         "sharepoint": "https://umcutrecht.sharepoint.com/sites/M365-onderzoek/SitePages/Research-Folder-Structure.aspx"   
@@ -59,15 +56,13 @@
         "allowedOptions": [
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
-            "q1_For personal use",
-            "q2_No",
-			"q2_Yes",
-            "q3_One source",
-            "q4_Public",
-            "q4_Confidential and pseudonimized",
-            "q5_Up to 1 TB",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q2_One source",
+            "q3_Public",
+            "q3_Confidential and pseudonymized",
+            "q4_Up to 1 TB",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
 	    "description": "SURFdrive is a personal cloud storage service that allows you to easily store, synchronise and share files (also with external parties). It is an alternative to tools such as Dropbox and Google Drive. You can use your UMC Utrecht user name and password to log into SURFdrive. This service is provided by SURFnet in the Netherlands and so the files on SURFnet will also be stored in the Netherlands.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -81,13 +76,11 @@
             "q1_With external parties",
             "q1_With everyone (open data sharing)",
             "q1_With UMCU colleague(s)",
-            "q2_No",
-			"q2_Yes",
-            "q3_Copy",
-            "q4_Public",
-            "q4_Confidential and pseudonimized",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q3_Public",
+            "q3_Confidential and pseudonymized",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
         "description": "DataverseNL is a service for publishing research data. It is the preferred data repository for researchers of the UMC Utrecht to publish datasets of finished parts of studies or research projects. By making your research data accessible via DataverseNL you meet the requirements of funders and of the UMCU research policy. Other researchers will be able to find your dataset through most commonly used search engines. This allows researchers to use the data for new research and makes published research verifiable and reproducible.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -95,17 +88,33 @@
         "sharepoint": "https://umcutrecht.sharepoint.com/sites/M365-onderzoek/SitePages/Dataverse.aspx"   
     },
     {
+        "application": "Trusted Third Party (TTP)",
+        "image": "https://iili.io/2ICYjS9.png",
+        "allowedOptions": [
+            "q1_With external parties",
+            "q2_Copy",
+            "q2_One source",                 
+            "q3_Confidential and unpseudonymized",
+            "q4_<25MB",
+			"q4_Up to 1 TB",
+            "q4_Up to 25 GB",
+            "q4_More than 1 TB"
+        ],
+        "description": "A Trusted Third Party (TTP) is an entity that facilitates interactions between two parties who trust the TTP to manage and secure their data or transactions. TTPs provide a secure environment for transactions, often using encryption and other security measures to protect data. Ask your datamanager about the TTPs that are being used at your division!",
+	    "accessibility": "Varies per TTP",
+        "costs": "Varies per TTP",
+        "sharepoint": "https://umcutrecht.sharepoint.com/sites/DMN_Onderzoek/SitePages/Datamanagement.aspx "   
+    },
+    {
         "application": "Zivver",
         "image": "https://iili.io/dbkJeyu.png",
         "allowedOptions": [
             "q1_With external parties",
-            "q1_Open data sharing",
             "q1_With UMCU colleague(s)",
-            "q2_No",
-            "q3_Copy",
-            "q4_Public",
-			"q4_Confidential and pseudonimized",
-            "q5_<25MB"
+            "q2_Copy",
+            "q3_Public",
+			"q3_Confidential and pseudonymized",
+            "q4_<25MB"
         ],
         "description": "Zivver is a digital communications platform that focuses on providing secure and effective solutions for modern digital communication needs. Zivver offers services such as secure email and secure file sharing, integrating with popular platforms like Microsoft Outlook, M365, and Gmail to prevent data loss and support compliance. It’s designed to help individuals and organizations share information confidently and efficiently.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -118,13 +127,12 @@
         "allowedOptions": [
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
-            "q2_No",
-            "q3_One source",
-	        "q4_Public",
-            "q4_Confidential and pseudonimized",
-            "q5_Up to 1 TB",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+	        "q3_Public",
+            "q3_Confidential and pseudonymized",
+            "q4_Up to 1 TB",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
         "description": "SURFfilesender is a web application that allows you to securely send large files. You can send the files encrypted and there is also the option to send a link to someone who wants to share files with you in a secure manner, but who does not have access to SURFfilesender. It is therefore a safe alternative for tools such as WeTransfer, which should not be used for research data.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -136,15 +144,13 @@
         "image": "https://iili.io/dsD5Jja.png",
         "allowedOptions": [
             "q1_With UMCU colleague(s)",
-            "q1_For personal use",
-            "q2_No",
-			"q2_Yes",
-            "q3_One source",
-            "q4_Public",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q2_One source",
+            "q3_Public",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
-        "description": "There are multiple networkdrive avaible for UMCU employees. For example: G:\\ (division drive), N:\\ (general drive).",
+        "description": "There are multiple networkdrives avaible for UMCU employees. For example: G:\\ (division drive), N:\\ (general drive). Ask your data manager for more information about the specific drives that are accessible to you.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
         "costs": "Depends on the network drive",
         "sharepoint": "https://umcutrecht.sharepoint.com/sites/TOPIC_Servicecenter/SitePages/Grote-bestanden-versturen.aspx"   
@@ -154,13 +160,11 @@
         "image": "https://iili.io/dbetKjS.png",
         "allowedOptions": [
             "q1_With UMCU colleague(s)",
-            "q1_For personal use",
-            "q2_No",
-			"q2_Yes",
-            "q3_One source",
-            "q4_Public",
-            "q5_<25MB",
-            "q5_Up to 25 GB"
+            "q2_Copy",
+            "q2_One source",
+            "q3_Public",
+            "q4_<25MB",
+            "q4_Up to 25 GB"
         ],
         "description": "OneDrive is part of Office 365 and provides an online location (in the Cloud) where files can be stored, shared, and synchronized. The files can be edited and shared from any device. OneDrive is linked to your personal UMC Utrecht profile and will be deactivated if you, for example, leave the organization. By default, everything you put in OneDrive is only shared with you, but it is possible to share your documents with others in your organization. For example, you can share your personal development plan with your supervisor.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
@@ -173,16 +177,13 @@
         "allowedOptions": [
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
-            "q1_For personal use",
-            "q2_No",
-			"q2_Yes",
-            "q3_One source",
-            "q4_Public",
-            "q4_Confidential and pseudonimized",
-            "q5_Up to 1 TB",
-            "q5_<25MB",
-            "q5_Up to 25 GB",
-            "q5_More than 1 TB"
+            "q2_Copy",
+            "q2_One source",
+            "q3_Public",
+            "q3_Confidential and pseudonymized",
+            "q4_Up to 1 TB",
+            "q4_Up to 25 GB",
+            "q4_More than 1 TB"
         ],
         "description": "The Digital Research Environment (DRE) makes collaboration with fellow researchers within and outside the UMCU safe, easy and efficient. Data always remains in-house, but it is possible for external parties to gain access to your research group’s workspace. This is a secure cloud environment. After logging in, all authorized members have access to the stored data, analysis tools, computing power and storage capacity.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",

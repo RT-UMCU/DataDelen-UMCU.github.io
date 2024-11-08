@@ -3,9 +3,6 @@
         "question": "Who do you want to share data with?",
         "options": [
         {
-            "value": "For personal use",
-            "text": "For personal use"
-        }, {
             "value": "With UMCU colleague(s)",
             "text": "With UMCU colleague(s)"
         }, {
@@ -14,17 +11,6 @@
         }, {
             "value": "With everyone (open data sharing)",
             "text": "With everyone (open data sharing)"
-        }]
-    },
-    {
-        "question": "Do you need to structurally work on the data?",
-        "options": [
-        {
-            "value": "Yes",
-            "text": "Yes"
-        }, {
-            "value": "No",
-            "text": "No"
         }]
     },
     {
@@ -45,11 +31,11 @@
             "value": "Public",
             "text": "Public (non-personal, non-sensitive)"
         }, {
-            "value": "Confidential and pseudonimized",
-            "text": "Confidential and pseudonimized"
+            "value": "Confidential and pseudonymized",
+            "text": "Confidential and pseudonymized"
         }, {
-			"value": "Confidential and unpseudononimized",
-            "text": "Confidential and unpseudononimized"
+	    "value": "Confidential and unpseudonymized",
+            "text": "Confidential and unpseudonymized"
 		}]
     },
     {

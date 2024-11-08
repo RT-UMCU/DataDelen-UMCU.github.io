@@ -32,6 +32,13 @@
             opacity: 10%;
         }
 
+        #clearButton {
+            margin-bottom: 20px; /* Adjust the value as needed */
+            padding: 10px 20px; /* Optional: Add some padding */
+            border-radius: 10px; /* Optional: Add rounded corners */
+            cursor: pointer; /* Optional: Change cursor on hover */
+        }
+
         .highlight {
         border: 2px solid #ffffff;
         box-shadow: 0 0 10px #6e6e6e;
@@ -43,13 +50,13 @@
         }
 
 
-
     </style>
 </head>
 
 <body>
     <div class="container d-flex gap-5">
         <div id="questions" class="">
+            <button id="clearButton">Clear All Selections</button>
             <!-- questions.json will be rendered here -->
         </div>
         <div id="applications" class="">
@@ -59,6 +66,15 @@
         </div>
     </div>
     <script>
+
+        $('#clearButton').click(function() {
+            $('input[type="radio"]').prop('checked', false);
+            window.selectedOptions = []; // Clear the selected options array
+            $('.application').removeClass('disabled'); // Remove the disabled class from all applications
+            $('.application button').removeClass('highlight'); // Remove the highlight class from all buttons
+            $('#information').html('<strong>Click on one of the application buttons for more information about the specific application!</strong>'); 
+        });
+
         function getJson(filePath, callback) {
             fetch(filePath)
             .then(async response => {
@@ -84,7 +100,7 @@
         function generateApplicationsHtml(data) {
             for (const application of data) {
                 const div = $('<div>', { class: "application me-3 mb-3 p3 border border-2", 'data-allowedOptions': application.allowedOptions });
-                const img = $('<button>', { type: 'button' }).append($('<img>', { src: application.image, alt: application.application, width: '100%' }))
+                const img = $('<button>', { type: 'button'}).append($('<img>', { src: application.image, alt: application.application, width: '100%' }))
                 
                 img.on('click', function () {
                     if ($(this).hasClass('highlight')) {
