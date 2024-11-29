@@ -82,7 +82,7 @@
             "q4_<25MB",
             "q4_Up to 25 GB"
         ],
-        "description": "DataverseNL is a service for publishing research data. It is the preferred data repository for researchers of the UMC Utrecht to publish datasets of finished parts of studies or research projects. By making your research data accessible via DataverseNL you meet the requirements of funders and of the UMCU research policy. Other researchers will be able to find your dataset through most commonly used search engines. This allows researchers to use the data for new research and makes published research verifiable and reproducible.",
+        "description": "DataverseNL is a service for publishing research data. It is the preferred data repository for researchers of the UMC Utrecht to publish datasets of finished parts of studies/research projects. By making your research data accessible via DataverseNL you meet the requirements of funders and of the UMCU research policy. Other researchers will be able to find your dataset through most commonly used search engines. This allows researchers to use the data for new research and makes published research verifiable and reproducible.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
         "costs": "Centrally financed (DIT)",
         "sharepoint": "https://umcutrecht.sharepoint.com/sites/M365-onderzoek/SitePages/Dataverse.aspx"   
@@ -116,7 +116,7 @@
 			"q3_Confidential and pseudonymized",
             "q4_<25MB"
         ],
-        "description": "Zivver is a digital communications platform that focuses on providing secure and effective solutions for modern digital communication needs. Zivver offers services such as secure email and secure file sharing, integrating with popular platforms like Microsoft Outlook, M365, and Gmail to prevent data loss and support compliance. It’s designed to help individuals and organizations share information confidently and efficiently.",
+        "description": "Zivver is a digital communications platform that focuses on providing secure and effective solutions for modern digital communication needs. Zivver offers services such as secure email and secure file sharing, integrating with popular platforms like Microsoft Outlook, M365, and Gmail to prevent data loss and support compliance.",
 	    "accessibility": "Personal UMCU computer (Windows), Personal UMCU computer (Mac), Virtual Workplace, Proces PC",
         "costs": "Free",
         "sharepoint": "https://umcutrecht.sharepoint.com/sites/Digitalewerkomgeving/SitePages/Veil.aspx"     
