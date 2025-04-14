@@ -112,7 +112,8 @@
             "q1_With external parties",
             "q1_With UMCU colleague(s)",
             "q2_Copy",
-            "q3_Public",
+            "q3_Public",                 
+            "q3_Confidential and unpseudonymized",
 			"q3_Confidential and pseudonymized",
             "q4_<25MB"
         ],
