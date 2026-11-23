@@ -29,13 +29,16 @@
         "options": [
         {
             "value": "Public",
-            "text": "Public (non-personal, non-sensitive)"
+            "text": "Public (information intended for public disclosure)"
         }, {
-            "value": "Confidential and pseudonymized",
-            "text": "Confidential and pseudonymized"
-        }, {
-	    "value": "Confidential and unpseudonymized",
-            "text": "Confidential and unpseudonymized"
+            "value": "Low confidential",
+            "text": "Low confidential (internal information that does not contain personal data or sensitive information)"
+		}, {
+	    	"value": "Confidential",
+            "text": "Confidential (personal data and/or pseudonymised research data)"
+		}, {
+	    	"value": "High confidential",
+            "text": "High confidential (patient data, special categories of personal data, or strategic, financial, intellectual property)"
 		}]
     },
     {
@@ -57,3 +60,4 @@
         }]
     }
 ]
+
