@@ -32,7 +32,7 @@
             "text": "Public (information intended for public disclosure)"
         }, {
             "value": "Low confidential",
-            "text": "Low confidential (internal information that does not contain personal data or sensitive information)"
+            "text": "Low confidential (Internal information without personal or sensitive data)"
 		}, {
 	    	"value": "Confidential",
             "text": "Confidential (personal data and/or pseudonymised research data)"
